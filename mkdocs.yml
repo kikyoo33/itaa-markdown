@@ -1,13 +1,11 @@
-# This is an example mkdocs.yml file, it will be overwritten during the GitHub Pages exporting
-
 # Site Information
-site_name: {architecture_name}
-site_url: "https://pages.github.ibm.com/{github_account}/{repo}"
-# site_description: {architecture_name}
+site_name: offline smoke 0117_import 3
+site_url: https://github.com/kikyoo33/itaa-markdown
+# site_description: offline smoke 0117_import 3
 
 # # Repository Information
-# repo_name: '{repo}'
-# repo_url: 'https://github.ibm.com/{github_account}/{repo}'
+# repo_name: itaa-markdown
+# repo_url: https://github.com/kikyoo33/itaa-markdown
 # edit_uri: 'edit/main/docs'
 docs_dir: 'docs'
 # # site_dir: 'site'
@@ -15,25 +13,155 @@ docs_dir: 'docs'
 # remote_name: 'origin'
 
 # Server info
-dev_addr: '127.0.0.1:8000'
+# dev_addr: '127.0.0.1:8000'
 
 nav:
+
   - Table of Content: 
-    - Information: index.md
-    # ...
+
+    - 0. Information: index.md
+
+    - 3. Requirement: 
+
+      - 3.1 Use Case Model: 
+
+        - 3.1.2 Use Case: 
+
+          - 'Use Case Name 1' : Use Case/usecase_SkaNQVhNdQF_3cKfB601HE5_ry1r9mr7s.md
+
+          - 'Use Case Name 2' : Use Case/usecase_r1iVX42EOQY_3cKfB60uxf7_ry1r9mr7s.md
+
+      - 3.3 Non Functional Requirements: 
+
+        - 'NFR Name1' : Non Functional Requirements/nonfunctionalrequirement_Skt8m424OXY_3cK7MmIFL5B_ry1r9mr7s.md
+
+        - 'NFR Name10' : Non Functional Requirements/nonfunctionalrequirement_rkq8mNh4_mY_3cK7MmJeqKn_ry1r9mr7s.md
+
+    - 5. Architecture: 
+
+      - 5.1 Architecture Overview: 
+
+        - 5.1.1 Services View: 
+
+          - 'sv' : Services View/aodservices_3cK4rSYvXpt_ry1r9mr7s.md
+
+          - 'sv2' : Services View/aodservices_3cK4rSYvXpt_3cK6qQdV8AM_ry1r9mr7s.md
+
+      - 5.2 Architectural Decisions: 
+
+        - 'ad1' : Architectural Decisions/architecturaldecision_r1SwXVhEOXY_3cK7GYraNQ3_ry1r9mr7s.md
+
+        - 'AD Name1' : Architectural Decisions/architecturaldecision_BktwQEhNOmK_3cK7GYq87X4_ry1r9mr7s.md
+
+      - 5.3 Component Model: 
+
+        - 5.3.1 Static View: 
+
+          - 'misc' : Static View/cmstaticview_3cKdqaKfO8Q_ry1r9mr7s.md
+
+          - 'sv' : Static View/cmstaticview_3cK6VgIEQoD_ry1r9mr7s.md
+
+          - 'sv2' : Static View/cmstaticview_3cK8w4gMqN8_ry1r9mr7s.md
+
+        - 5.3.2 Sequence View: 
+
+          - 'seq' : Sequence View/cmdynamicview_3cKebmrlVhY_ry1r9mr7s.md
+
+        - 5.3.3 Collaboration View: 
+
+          - 'cv' : Collaboration View/cmcollaboration_3cKfN2pctKf_ry1r9mr7s.md
+
+      - 5.4 Operational Model: 
+
+        - 5.4.1 Logical Operational View: 
+
+          - 'lom1' : Logical Operational View/lomview_3cKh0Nydeat_ry1r9mr7s.md
+
+          - 'misc' : Logical Operational View/lomview_3cKhyRrEVFv_ry1r9mr7s.md
+
+        - 5.4.2 Prescribed Operational View: 
+
+          - 'pom1' : Prescribed Operational View/pomview_3cKhRL8W8aK_ry1r9mr7s.md
+
+          - 'pom2' : Prescribed Operational View/pomview_3cKhRL8W8aK_3cKij3jwm19_ry1r9mr7s.md
+
+    - 6. RAID: 
+
+      - 6.1 Risks: 
+
+        - 'r' : Risks/risk_HkIEE3VuXK_3cKiCDYtkzr_ry1r9mr7s.md
+
+        - 'risk' : Risks/risk_3cKiyg0UVyW_ry1r9mr7s.md
+
+        - 'Risk 1' : Risks/risk_rkVNV24u7t_3cKiCDYxf34_ry1r9mr7s.md
+
+      - 6.2 Assumptions: 
+
+        - '11' : Assumptions/assumption_rkgFxFhSQd_Sk9v2Z4L__3cKj0D8oPhI_ry1r9mr7s.md
+
+        - 'as' : Assumptions/assumption_3cKiU3C0LrD_ry1r9mr7s.md
+
+      - 6.3 Issues: 
+
+        - 'i' : Issues/issue_SyldmEhVOmY_3cKjhng15dJ_ry1r9mr7s.md
+
+        - 'issue1' : Issues/issue_3cKj8gFqFpj_ry1r9mr7s.md
+
+        - 'issue12' : Issues/issue_3cKj8gFqFpj_3cKjfpTprnd_ry1r9mr7s.md
+
+        - 'Issues 1' : Issues/issue_S1xVNhEOQY_3cKjhngqHO7_ry1r9mr7s.md
+
+      - 6.4 Dependencies: 
+
+        - 'de' : Dependencies/dependency_3cKjjJTwAQ5_ry1r9mr7s.md
+
+        - 'de2' : Dependencies/dependency_3cKjjJTwAQ5_3cKjp361cT8_ry1r9mr7s.md
+
+        - 'Dependency 1' : Dependencies/dependency_SJLxN4hE_Xt_3cKjqZu5gRb_ry1r9mr7s.md
+
+    - 7. Architectural Principles: 
+
+      - 'ap' : Architectural Principles/architectureprinciple_3cKjugZ3PKi_ry1r9mr7s.md
+
+      - 'ap1' : Architectural Principles/architectureprinciple_rkleVE3N_7K_3cKjxS3QL3t_ry1r9mr7s.md
+
+      - 'Copy of ap' : Architectural Principles/architectureprinciple_ryfxEVhEdmt_3cKjxS3zknd_ry1r9mr7s.md
+
+    - 10. Misc Diagram: 
+
+      - 'misc' : Misc Diagram/miscdiagram_3cKaTqjdOJG_ry1r9mr7s.md
+
+      - 'misc2' : Misc Diagram/miscdiagram_3cKcpD8x28Z_ry1r9mr7s.md
+
+    - 11. Notes: 
+
+      - 'note1' : Notes/notes_3cKjGFrRw9Y_ry1r9mr7s.md
+
+
+   
+       
+
 
 markdown_extensions:
+
   - md_in_html
+
   - toc:
+
       permalink: True
+
   - footnotes
+
   - tables
+
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+
   - attr_list
 
 theme:
+
   name: material
   palette:
     primary: 'black'
@@ -42,7 +170,7 @@ theme:
     text: 'IBM Plex Sans'
     code: 'IBM Plex Mono'
   logo: assets/ca.svg
-  favicon: assets/ca.svg     
+  favicon: assets/ca.svg 
   features:
     # - navigation.tabs
     - navigation.tabs.sticky
